@@ -86,3 +86,25 @@ CMD ["npm", "start"]
 docker build -t valpas312/practico-git-docker:v1.0 .
 
 docker push valpas312/practico-git-docker:v1.0
+````
+
+---
+
+### Funcionamiento de la app
+
+* Iniciamos la aplicacion con el script npm start
+<img width="1920" height="1032" alt="Captura de pantalla 2025-10-27 132117" src="https://github.com/user-attachments/assets/e5b5e209-9906-4a03-a2ec-16a43a7d664b" />
+
+* Ya tenemos el servidor corriendo
+<img width="1920" height="1032" alt="Captura de pantalla 2025-10-27 132152" src="https://github.com/user-attachments/assets/43e44b63-5bde-4eae-8639-0aaa96834313" />
+
+* Abrimos postman y en la direccion 
+```json
+    http://localhost:3001/generate
+```
+* hacemos una consulta post con un JSON con el dato prompt
+<img width="1920" height="1032" alt="Captura de pantalla 2025-10-27 132317" src="https://github.com/user-attachments/assets/a403ebb9-63a1-427b-b995-98e109a3893d" />
+
+* Hacemos la peticion y deberiamor ver el cuerpo de la respuesta un JSON con el dato response seguido de la respuesta generada por la AI 
+<img width="1920" height="1032" alt="Captura de pantalla 2025-10-27 132404" src="https://github.com/user-attachments/assets/1aad99ea-b109-4b49-a035-84982905e69f" />
+
