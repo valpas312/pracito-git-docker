@@ -83,7 +83,6 @@ EXPOSE 3001
 CMD ["npm", "start"]
 
 # Comandos para el despliegue en Docker Hub
-```
 docker build -t valpas312/practico-git-docker:v1.0 .
 
 docker push valpas312/practico-git-docker:v1.0
