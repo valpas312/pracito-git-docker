@@ -108,3 +108,8 @@ docker push valpas312/practico-git-docker:v1.0
 * Hacemos la peticion y deberiamor ver el cuerpo de la respuesta un JSON con el dato response seguido de la respuesta generada por la AI 
 <img width="1920" height="1032" alt="Captura de pantalla 2025-10-27 132404" src="https://github.com/user-attachments/assets/1aad99ea-b109-4b49-a035-84982905e69f" />
 
+* Con nuestra imagen de docker corriendo
+<img width="1920" height="1020" alt="Captura de pantalla 2025-10-27 191959" src="https://github.com/user-attachments/assets/35ba260b-feaf-46cb-a331-eb100e564974" />
+
+* La peticion seria de la siguiente manera en el puerto 80
+<img width="1920" height="1020" alt="Captura de pantalla 2025-10-27 192243" src="https://github.com/user-attachments/assets/e0e4dc40-b665-4dbf-9f72-b09b90774e6e" />
