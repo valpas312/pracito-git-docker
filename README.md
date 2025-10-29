@@ -87,7 +87,10 @@ docker build -t valpas312/practico-git-docker:v1.0 .
 
 docker push valpas312/practico-git-docker:v1.0
 ````
-
+### Comando para traer la imagen desde docker hub:
+```
+docker pull valpas312/practico-git-docker:v1.0
+```
 ---
 
 ### Funcionamiento de la app
